@@ -17,6 +17,32 @@
 		B43AAF7827094E5E008059F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AAF4E27094E5D008059F2 /* ContentView.swift */; };
 		B43AAF7927094E5E008059F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43AAF4F27094E5E008059F2 /* Assets.xcassets */; };
 		B43AAF7A27094E5E008059F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43AAF4F27094E5E008059F2 /* Assets.xcassets */; };
+		B43AAF8A27094F65008059F2 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AAF8927094F65008059F2 /* OnBoardingView.swift */; };
+		B43AAF8B27094F65008059F2 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AAF8927094F65008059F2 /* OnBoardingView.swift */; };
+		B43AAF8D270950CA008059F2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AAF8C270950CA008059F2 /* Constants.swift */; };
+		B43AAF8E270950CA008059F2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AAF8C270950CA008059F2 /* Constants.swift */; };
+		B43AAF90270954E8008059F2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AAF8F270954E8008059F2 /* MainView.swift */; };
+		B43AAF91270954E8008059F2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AAF8F270954E8008059F2 /* MainView.swift */; };
+		B43AAF9427095633008059F2 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AAF9327095633008059F2 /* extension.swift */; };
+		B43AAF9527095633008059F2 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AAF9327095633008059F2 /* extension.swift */; };
+		B473255D27438B4E0020B152 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B473255C27438B4E0020B152 /* NetworkService.swift */; };
+		B4769D6E27135B3B00DE02AF /* RemoconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4769D6D27135B3B00DE02AF /* RemoconView.swift */; };
+		B4769D6F27135B3B00DE02AF /* RemoconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4769D6D27135B3B00DE02AF /* RemoconView.swift */; };
+		B4769D7127135D3200DE02AF /* KitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4769D7027135D3200DE02AF /* KitView.swift */; };
+		B4769D7227135D3200DE02AF /* KitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4769D7027135D3200DE02AF /* KitView.swift */; };
+		B4769D742713651200DE02AF /* KitTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4769D732713651200DE02AF /* KitTestView.swift */; };
+		B4769D752713651200DE02AF /* KitTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4769D732713651200DE02AF /* KitTestView.swift */; };
+		B4769D782713F37E00DE02AF /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4769D772713F37E00DE02AF /* DatabaseService.swift */; };
+		B4769D7B2713F43500DE02AF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4769D7A2713F43500DE02AF /* LoginView.swift */; };
+		B4769D7C2713F43500DE02AF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4769D7A2713F43500DE02AF /* LoginView.swift */; };
+		B4769D812713F57900DE02AF /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4769D802713F57900DE02AF /* AuthService.swift */; };
+		B4769D842714B45F00DE02AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4769D832714B45F00DE02AF /* GoogleService-Info.plist */; };
+		B48BB55E27435BAF00405208 /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48BB55D27435BAF00405208 /* SessionService.swift */; };
+		B48BB56027435C7F00405208 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48BB55F27435C7F00405208 /* LoginViewModel.swift */; };
+		B48BB563274360D900405208 /* CommonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48BB562274360D900405208 /* CommonViews.swift */; };
+		B48BB5652743855F00405208 /* KitTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48BB5642743855F00405208 /* KitTestViewModel.swift */; };
+		C715806C402D5B1EFE86B4DD /* Pods_Sensbox__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADB415CFD2D55E91407301D /* Pods_Sensbox__iOS_.framework */; };
+		F743510499EFD66CD43E087F /* Pods_Sensbox__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D761B2F82660BC9BC5112EDE /* Pods_Sensbox__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24022FB17ECCF9104D51BE4A /* Pods-Sensbox (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sensbox (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Sensbox (iOS)/Pods-Sensbox (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		7ADB415CFD2D55E91407301D /* Pods_Sensbox__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sensbox__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01EC552EB59E4BE7537BA42 /* Pods-Sensbox (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sensbox (iOS).release.xcconfig"; path = "Target Support Files/Pods-Sensbox (iOS)/Pods-Sensbox (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		B43AAF4D27094E5D008059F2 /* SensboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensboxApp.swift; sourceTree = "<group>"; };
 		B43AAF4E27094E5D008059F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B43AAF4F27094E5E008059F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +78,25 @@
 		B43AAF6D27094E5E008059F2 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43AAF7127094E5E008059F2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		B43AAF7327094E5E008059F2 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		B43AAF8927094F65008059F2 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		B43AAF8C270950CA008059F2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B43AAF8F270954E8008059F2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B43AAF9327095633008059F2 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		B473255C27438B4E0020B152 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		B4769D6D27135B3B00DE02AF /* RemoconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoconView.swift; sourceTree = "<group>"; };
+		B4769D7027135D3200DE02AF /* KitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitView.swift; sourceTree = "<group>"; };
+		B4769D732713651200DE02AF /* KitTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitTestView.swift; sourceTree = "<group>"; };
+		B4769D772713F37E00DE02AF /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		B4769D7A2713F43500DE02AF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B4769D802713F57900DE02AF /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B4769D832714B45F00DE02AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B48BB55D27435BAF00405208 /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		B48BB55F27435C7F00405208 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B48BB562274360D900405208 /* CommonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViews.swift; sourceTree = "<group>"; };
+		B48BB5642743855F00405208 /* KitTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitTestViewModel.swift; sourceTree = "<group>"; };
+		D761B2F82660BC9BC5112EDE /* Pods_Sensbox__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sensbox__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8EC577B73A6197F3C04C10 /* Pods-Sensbox (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sensbox (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Sensbox (macOS)/Pods-Sensbox (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		FA2270A1D872B0275A23642C /* Pods-Sensbox (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sensbox (macOS).release.xcconfig"; path = "Target Support Files/Pods-Sensbox (macOS)/Pods-Sensbox (macOS).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C715806C402D5B1EFE86B4DD /* Pods_Sensbox__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F743510499EFD66CD43E087F /* Pods_Sensbox__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,22 +133,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E546727E9F85BC1CE0AD39E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24022FB17ECCF9104D51BE4A /* Pods-Sensbox (iOS).debug.xcconfig */,
+				A01EC552EB59E4BE7537BA42 /* Pods-Sensbox (iOS).release.xcconfig */,
+				DA8EC577B73A6197F3C04C10 /* Pods-Sensbox (macOS).debug.xcconfig */,
+				FA2270A1D872B0275A23642C /* Pods-Sensbox (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF41B4C381375175013718E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ADB415CFD2D55E91407301D /* Pods_Sensbox__iOS_.framework */,
+				D761B2F82660BC9BC5112EDE /* Pods_Sensbox__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B43AAF4727094E5C008059F2 = {
 			isa = PBXGroup;
 			children = (
+				B4769D832714B45F00DE02AF /* GoogleService-Info.plist */,
 				B43AAF4C27094E5D008059F2 /* Shared */,
 				B43AAF5B27094E5E008059F2 /* macOS */,
 				B43AAF6427094E5E008059F2 /* Tests iOS */,
 				B43AAF7027094E5E008059F2 /* Tests macOS */,
 				B43AAF5527094E5E008059F2 /* Products */,
+				6E546727E9F85BC1CE0AD39E /* Pods */,
+				AF41B4C381375175013718E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B43AAF4C27094E5D008059F2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				B43AAF4D27094E5D008059F2 /* SensboxApp.swift */,
-				B43AAF4E27094E5D008059F2 /* ContentView.swift */,
+				B4769D762713F37400DE02AF /* Services */,
+				B43AAF922709561F008059F2 /* Uitilities */,
+				B48BB55C27435B3000405208 /* Presentation */,
 				B43AAF4F27094E5E008059F2 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -141,6 +215,52 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		B43AAF922709561F008059F2 /* Uitilities */ = {
+			isa = PBXGroup;
+			children = (
+				B43AAF8C270950CA008059F2 /* Constants.swift */,
+				B43AAF9327095633008059F2 /* extension.swift */,
+			);
+			path = Uitilities;
+			sourceTree = "<group>";
+		};
+		B4769D762713F37400DE02AF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B48BB55D27435BAF00405208 /* SessionService.swift */,
+				B4769D802713F57900DE02AF /* AuthService.swift */,
+				B4769D772713F37E00DE02AF /* DatabaseService.swift */,
+				B473255C27438B4E0020B152 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B48BB55C27435B3000405208 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B48BB561274360CA00405208 /* Common */,
+				B43AAF4D27094E5D008059F2 /* SensboxApp.swift */,
+				B43AAF4E27094E5D008059F2 /* ContentView.swift */,
+				B43AAF8927094F65008059F2 /* OnBoardingView.swift */,
+				B4769D7A2713F43500DE02AF /* LoginView.swift */,
+				B48BB55F27435C7F00405208 /* LoginViewModel.swift */,
+				B43AAF8F270954E8008059F2 /* MainView.swift */,
+				B4769D6D27135B3B00DE02AF /* RemoconView.swift */,
+				B4769D7027135D3200DE02AF /* KitView.swift */,
+				B4769D732713651200DE02AF /* KitTestView.swift */,
+				B48BB5642743855F00405208 /* KitTestViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B48BB561274360CA00405208 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B48BB562274360D900405208 /* CommonViews.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B43AAF7D27094E5E008059F2 /* Build configuration list for PBXNativeTarget "Sensbox (iOS)" */;
 			buildPhases = (
+				7D2ADC63CEEE9B075F31710D /* [CP] Check Pods Manifest.lock */,
 				B43AAF5027094E5E008059F2 /* Sources */,
 				B43AAF5127094E5E008059F2 /* Frameworks */,
 				B43AAF5227094E5E008059F2 /* Resources */,
+				79295069EAD0BCD6359E3FE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,6 +287,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B43AAF8027094E5E008059F2 /* Build configuration list for PBXNativeTarget "Sensbox (macOS)" */;
 			buildPhases = (
+				2666468399FEA784BB38FD07 /* [CP] Check Pods Manifest.lock */,
 				B43AAF5627094E5E008059F2 /* Sources */,
 				B43AAF5727094E5E008059F2 /* Frameworks */,
 				B43AAF5827094E5E008059F2 /* Resources */,
@@ -267,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B43AAF7927094E5E008059F2 /* Assets.xcassets in Resources */,
+				B4769D842714B45F00DE02AF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,13 +418,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2666468399FEA784BB38FD07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sensbox (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79295069EAD0BCD6359E3FE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sensbox (iOS)/Pods-Sensbox (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sensbox (iOS)/Pods-Sensbox (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sensbox (iOS)/Pods-Sensbox (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D2ADC63CEEE9B075F31710D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sensbox (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B43AAF5027094E5E008059F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B43AAF7727094E5E008059F2 /* ContentView.swift in Sources */,
+				B48BB563274360D900405208 /* CommonViews.swift in Sources */,
+				B4769D742713651200DE02AF /* KitTestView.swift in Sources */,
+				B43AAF8A27094F65008059F2 /* OnBoardingView.swift in Sources */,
+				B4769D812713F57900DE02AF /* AuthService.swift in Sources */,
+				B473255D27438B4E0020B152 /* NetworkService.swift in Sources */,
+				B48BB5652743855F00405208 /* KitTestViewModel.swift in Sources */,
 				B43AAF7527094E5E008059F2 /* SensboxApp.swift in Sources */,
+				B4769D7127135D3200DE02AF /* KitView.swift in Sources */,
+				B48BB56027435C7F00405208 /* LoginViewModel.swift in Sources */,
+				B43AAF9427095633008059F2 /* extension.swift in Sources */,
+				B43AAF90270954E8008059F2 /* MainView.swift in Sources */,
+				B43AAF8D270950CA008059F2 /* Constants.swift in Sources */,
+				B4769D7B2713F43500DE02AF /* LoginView.swift in Sources */,
+				B48BB55E27435BAF00405208 /* SessionService.swift in Sources */,
+				B4769D782713F37E00DE02AF /* DatabaseService.swift in Sources */,
+				B4769D6E27135B3B00DE02AF /* RemoconView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +512,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B43AAF7827094E5E008059F2 /* ContentView.swift in Sources */,
+				B4769D752713651200DE02AF /* KitTestView.swift in Sources */,
+				B43AAF8B27094F65008059F2 /* OnBoardingView.swift in Sources */,
 				B43AAF7627094E5E008059F2 /* SensboxApp.swift in Sources */,
+				B4769D7227135D3200DE02AF /* KitView.swift in Sources */,
+				B43AAF9527095633008059F2 /* extension.swift in Sources */,
+				B43AAF91270954E8008059F2 /* MainView.swift in Sources */,
+				B43AAF8E270950CA008059F2 /* Constants.swift in Sources */,
+				B4769D7C2713F43500DE02AF /* LoginView.swift in Sources */,
+				B4769D6F27135B3B00DE02AF /* RemoconView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,11 +671,13 @@
 		};
 		B43AAF7E27094E5E008059F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24022FB17ECCF9104D51BE4A /* Pods-Sensbox (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52M4J7JS38;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -478,7 +691,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sensbox.Sensbox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sensbox.Sensbox;
 				PRODUCT_NAME = Sensbox;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -489,11 +702,13 @@
 		};
 		B43AAF7F27094E5E008059F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01EC552EB59E4BE7537BA42 /* Pods-Sensbox (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52M4J7JS38;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -507,7 +722,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sensbox.Sensbox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sensbox.Sensbox;
 				PRODUCT_NAME = Sensbox;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -519,6 +734,7 @@
 		};
 		B43AAF8127094E5E008059F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA8EC577B73A6197F3C04C10 /* Pods-Sensbox (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -545,6 +761,7 @@
 		};
 		B43AAF8227094E5E008059F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA2270A1D872B0275A23642C /* Pods-Sensbox (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
